@@ -1,0 +1,33 @@
+.Navbar {
+  background-color: #da70d6;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Navbar nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'BenchNine';
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.Navbar a:hover {
+  border-bottom: 5px solid #afdcec;
+}
