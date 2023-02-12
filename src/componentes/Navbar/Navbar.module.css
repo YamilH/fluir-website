@@ -1,18 +1,20 @@
 .Navbar {
-  background-color: #da70d6;
+  /* background-color: #da70d6; */
+  background-color: #000;
   height: 80px;
   width: 100%;
   position: fixed;
   z-index: 99;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  opacity: 1;
 }
 
 .Navbar nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-right: 100px;
 }
 
 .Navbar nav ul li {
@@ -29,5 +31,6 @@
 }
 
 .Navbar a:hover {
-  border-bottom: 5px solid #afdcec;
+  /* border-bottom: 5px solid #afdcec; */
+  border-bottom: 5px solid #da70d6;
 }

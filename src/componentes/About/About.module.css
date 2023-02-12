@@ -1,0 +1,18 @@
+.AboutMe {
+  background-color: #fff;
+  padding-bottom: 5%;
+}
+.AboutMe .Container {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.AboutMe .Container .Text {
+  width: 47%;
+  padding-right: 50px;
+}
+
+.AboutMe .Container .Photo .EntrenandoFoto3 {
+  height: 300px;
+  border-radius: 10px;
+}
