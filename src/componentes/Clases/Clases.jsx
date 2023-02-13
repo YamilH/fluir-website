@@ -1,9 +1,11 @@
 import React from 'react';
+import classes from './Clases.module.css'
+import PageHeader from './../PageHeader/PageHeader.jsx';
 
 const Clases = () => {
   return (
-    <div>
-      <h1>Clases</h1>
+    <div className={classes.Clases}>
+      <PageHeader title={'Clases'}/>
     </div>
   );
 }

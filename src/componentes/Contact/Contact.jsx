@@ -1,9 +1,10 @@
 import React from 'react';
+import PageHeader from './../PageHeader/PageHeader.jsx';
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <PageHeader title={'Donde Estamos'}/>
     </div>
   );
 };

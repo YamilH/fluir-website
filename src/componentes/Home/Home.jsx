@@ -11,8 +11,8 @@ const Home = () => {
         <video className={classes.Video} src={entrenandovideo} autoPlay loop muted></video>
         </div>
         <div className={classes.Hello}>
-        <h1 >FLUIR</h1>
-        <h1>Preparate para sentirte mejor</h1>
+        {/* <h1 >FLUIR</h1> */}
+        <h1>PREPARATE PARA SENTIRTE MEJOR</h1>
       </div>
       {/* <img className={classes.Entrenando1} src={Entrenando1} alt='muchacha-entrenando'></img> */}
 

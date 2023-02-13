@@ -1,32 +1,28 @@
-.Skills {
-  
-}
-
-.Container {
+/* .Container {
   width: 100%;
   height: 100%;
-  padding-top: 30px;
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
-/* .Tarjetaprofe {
+.Tarjetaprofe {
   width: 300px;
   display: flex;
   flex-direction: column;
   position: relative;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .MarcoFotoprofe {
   width: 300px;
   display: flex;
+  /* position: relative; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .Nombreprofe {
@@ -38,21 +34,40 @@
 
 .Fotoprofe {
   height: 300px;
+  /* position: absolute; */
   z-index: 10;
-}
-
-.Datosprofe {
-  position: absolute;
-  display: none;
-  z-index: 20;
-  color: #fff
 }
 
 .Fotoprofe:hover {
   height: 300px;
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
-.MarcoFotoprofe:hover .Datosprofe {
+.Datos1profe {
+  position: absolute;
+  display: none;
+  z-index: 20;
+  color: #fff;
+}
+.Datos2profe {
+  position: absolute;
+  display: none;
+  z-index: 20;
+  color: #fff;
+  padding-bottom: 50px;
+}
+/* .Datosprofe:hover {
+  position: absolute;
   display: block;
+  z-index: 20;
+  color: #fff
 } */
+
+
+
+.MarcoFotoprofe:hover .Datos1profe {
+  display: block;
+}
+.MarcoFotoprofe:hover .Datos2profe {
+  display: block;
+}
