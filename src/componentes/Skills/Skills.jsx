@@ -6,7 +6,7 @@ import Tarjetas from './Tarjetas.jsx'
 
 const Skills = () => {
   return (
-    <div className={classes.Skills}>
+    <div className={classes.Skills} id='Skills'>
       <PageHeader title={'Nuestro Equipo'}/>
 
     <div className={classes.Container}>

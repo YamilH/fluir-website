@@ -1,0 +1,75 @@
+.Contact {
+  background-color: #8d2189;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Map {
+  width: 80%;
+  position: relative;
+  align-self: center;
+}
+
+.TextoContacto {
+  font-size: 25px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+  color: #fff;
+}
+.Infodecontacto {
+  height: 50px;
+  padding-top: 20px;
+}
+.Ig {
+  transition: all 300ms ease;
+  animation: shake 2s ease-out infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-2px, 0px) rotate(1deg); }
+  30% { transform: translate(2px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-2px, 1px) rotate(0deg); }
+  70% { transform: translate(2px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+/* FOOTER */
+.realfootercontainer {
+  width: 100%;
+  height: 60px;
+  background-color: #3a0c39;
+  line-height: 0.7;
+  /* padding-bottom: 15px; */
+}
+
+.realfooterbody {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-grow: 2;
+
+}
+
+.footer_h4 {
+  line-height: 2.0;
+}
+
+.footer_h5, .footer_h6, .link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_h6 a:hover {
+  color: #fbb117;
+}

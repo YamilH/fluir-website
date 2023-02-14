@@ -5,7 +5,7 @@ import EntrenandoFoto3 from '../../media/entrenando3.jpg';
 
 const About = () => {
   return (
-    <div className={classes.AboutMe}>
+    <div className={classes.AboutMe} id='About'>
       <PageHeader title={'Sobre Nosotros'}/>
       <div className={classes.Container}>
         <div className={classes.Text}>

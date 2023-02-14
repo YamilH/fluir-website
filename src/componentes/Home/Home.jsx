@@ -5,7 +5,7 @@ import entrenandovideo from '../../media/entrenandovideo.mp4';
 
 const Home = () => {
   return (
-    <div className={classes.Home}>
+    <div className={classes.Home} id='Home'>
       <div className={classes.Container}>
         <div className={classes.Overlay}></div>
         <video className={classes.Video} src={entrenandovideo} autoPlay loop muted></video>

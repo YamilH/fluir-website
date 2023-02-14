@@ -11,8 +11,8 @@ const Clases = () => {
     <div className={classes.Clases}>
 
     <img className={classes.Waveviolet} src={Wave1} alt='svg'></img>
+    <div id='Clases'></div>
       <PageHeaderWhite title={'Clases'}/>
-
     <div className={classes.Clasescontent}>
     
     <Estimulos tituloestimulos={'Pilates'}
@@ -30,8 +30,9 @@ const Clases = () => {
                fotoestimulos={Fotoclase1}
                altestimulos={'foto entrenando'}
     />
-    </div>
+
     <img className={classes.Waveviolet} src={Wave2} alt='svg'></img>
+    </div>
     </div>
   );
 }
