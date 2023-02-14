@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './PageHeader.module.css'
+import classes from './PageHeaderWhite.module.css'
 
-const PageHeader = (props) => {
+const PageHeaderWhite = (props) => {
   return (
     <div className={classes.Container}>
       <hr />
@@ -10,4 +10,4 @@ const PageHeader = (props) => {
   );
 }
 
-export default PageHeader;
+export default PageHeaderWhite;

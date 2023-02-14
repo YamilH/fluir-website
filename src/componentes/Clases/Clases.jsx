@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Clases.module.css'
-import PageHeader from './../PageHeader/PageHeader.jsx';
+import PageHeaderWhite from './../PageHeader/PageHeaderWhite.jsx';
 import Estimulos from './Estimulos.jsx'
 import Fotoclase1 from '../../media/entrenando4.jpg';
 import Wave1 from '../../media/wave2.svg';
@@ -11,7 +11,7 @@ const Clases = () => {
     <div className={classes.Clases}>
 
     <img className={classes.Waveviolet} src={Wave1} alt='svg'></img>
-      <PageHeader title={'Clases'}/>
+      <PageHeaderWhite title={'Clases'}/>
 
     <div className={classes.Clasescontent}>
     
@@ -29,11 +29,6 @@ const Clases = () => {
                textoestimulos={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quas. Commodi esse cumque molestiae quo ab. Nostrum cumque dignissimos adipisci culpa? Enim aut sint autem ad vel officia laudantium. Magni.'}
                fotoestimulos={Fotoclase1}
                altestimulos={'foto entrenando'}
-    />
-    <Estimulos tituloestimulos={'Pilates'}
-               textoestimulos={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quas. Commodi esse cumque molestiae quo ab. Nostrum cumque dignissimos adipisci culpa? Enim aut sint autem ad vel officia laudantium. Magni.'}
-               fotoestimulos={Fotoclase1}
-               altestimulos={'foto entrenando'}   
     />
     </div>
     <img className={classes.Waveviolet} src={Wave2} alt='svg'></img>

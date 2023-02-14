@@ -12,6 +12,20 @@
   padding-right: 50px;
 }
 
+.AboutMe .Container .Text .Tituloaboutme{
+  font-size: 35px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+}
+
+.AboutMe .Container .Text .Textoaboutme{
+  font-size: 25px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+}
+
+
+
 .AboutMe .Container .Photo .EntrenandoFoto3 {
   height: 300px;
   border-radius: 10px;

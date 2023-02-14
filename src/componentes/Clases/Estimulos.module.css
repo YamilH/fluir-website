@@ -2,26 +2,37 @@
 
 }
 
-.Estimulos .ClasesContent {
+.Estimulos .Clasescontent {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 70px;
+  gap: 40px;
+}
+
+.Estimulos .Clasescontent .Paragraph {
+}
+
+.Estimulos .Clasescontent .Paragraph .Tituloestimulos {
+  font-size: 35px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+  color: #fff;
+}
+
+.Estimulos .Clasescontent .Paragraph .Textoestimulos {
+  font-size: 25px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+  color: #fff;
+}
+
+.Estimulos .Clasescontent .Paragraph .Marcofotoestimulos {
 
 }
 
-.Estimulos .ClasesContent .ClassesParagraph {
-
-}
-
-.Estimulos .ClasesContent .ClassesParagraph .Tituloestimulos {
-
-}
-
-.Estimulos .ClasesContent .ClassesParagraph .Textoestimulos {
-  
-}
-
-.Estimulos .ClasesContent .ClassesParagraph .Marcofotoestimulos {
-
-}
-
-.Estimulos .ClasesContent .ClassesParagraph .Fotoestimulos {
+.Estimulos .Clasescontent .Paragraph .Fotoestimulos {
   
 }
