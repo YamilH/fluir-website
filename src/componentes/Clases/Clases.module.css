@@ -18,3 +18,17 @@
   justify-content: center;
   
 }
+
+@media (max-width: 767px) {
+
+  .Clases .Clasescontent {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    
+  }
+}

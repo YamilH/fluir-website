@@ -24,9 +24,31 @@
   font-weight: 700;
 }
 
-
-
 .AboutMe .Container .Photo .EntrenandoFoto3 {
   height: 300px;
   border-radius: 10px;
+}
+
+
+@media (max-width: 767px) {
+
+  .AboutMe .Container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .AboutMe .Container .Text {
+    width: 95%;
+    align-self: center;
+    padding-right: 0;
+  }
+
+  .AboutMe .Container .Photo .EntrenandoFoto3 {
+    height: 160px;
+    border-radius: 10px;
+    align-self: center;
+  }
+
 }

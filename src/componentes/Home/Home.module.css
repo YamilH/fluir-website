@@ -39,3 +39,9 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 767px) {
+  .Home .Hello {
+    font-size: 30px;
+  }
+}
