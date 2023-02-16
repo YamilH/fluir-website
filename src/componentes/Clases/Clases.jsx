@@ -6,6 +6,8 @@ import Fotoclase1 from '../../media/entrenando4.jpg';
 import Wave1 from '../../media/wave2.svg';
 import Wave2 from '../../media/wave3.svg';
 
+
+
 const Clases = () => {
   return (
     <div className={classes.Clases}>
