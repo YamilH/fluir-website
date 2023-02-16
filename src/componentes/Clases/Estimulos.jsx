@@ -25,22 +25,23 @@ const Estimulos = (props) => {
       animation.start({x: '-100vw'})
     }
 
-  }, [inView]);
+  },[inView]);
 
   return (
-    <motion.div className={classes.Estimulos}
-      animate={animation}>
+    <div className={classes.Estimulos}
+
+      >
     <div ref={ref} className={classes.Clasescontent}>
-      <div className={classes.Paragraph}>
+      <motion.div className={classes.Paragraph} animate={animation}>
         <h3 className={classes.Tituloestimulos}>{props.tituloestimulos}</h3>
         <p className={classes.Textoestimulos}>{props.textoestimulos}</p>
-      </div>
-      <div className={classes.Marcofotoestimulos}>
+      </motion.div>
+      <motion.div className={classes.Marcofotoestimulos} animate={animation}>
         <img className={classes.Fotoestimulos} src={props.fotoestimulos} alt={props.altestimulos}></img>
-      </div>
+      </motion.div>
     </div>
 
-    </motion.div>
+    </div>
     );
   }
 
