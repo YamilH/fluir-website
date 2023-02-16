@@ -75,3 +75,19 @@
 .footer_h6 a:hover {
   color: #fbb117;
 }
+
+/* @media (max-width: 767px) {
+.realfootercontainer {
+  width: 100%;
+  height: 66px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+.footer_h5, .footer_h6 {
+color: white;
+line-height: 1.2;
+overflow-wrap: break-word;
+
+}
+} */

@@ -34,3 +34,40 @@
   /* border-bottom: 5px solid #afdcec; */
   border-bottom: 5px solid #da70d6;
 }
+
+.Navbar .MobileNavigation {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Navbar .Navigation {
+    display: none;
+  }
+  .Navbar .MobileNavigation {
+    display: flex;
+    align-items: center;
+    background-color: #8d2189;
+  }
+
+  .Navbar .MobileNavigation .Hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .Navbar nav ul {
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     top: 80px;
+     right: 0;
+     width: 100%;
+     background: #8d2189;
+     border-top: 2px solid #3a0c39;
+  }
+
+  .Navbar nav ul li {
+    padding-left: 50%;
+  }
+
+  }

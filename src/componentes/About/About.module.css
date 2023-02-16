@@ -6,6 +6,8 @@
   display: flex;
   padding-left: 150px;
   padding-right: 150px;
+  position: relative;
+  justify-content: center;
 }
 .AboutMe .Container .Text {
   width: 47%;
@@ -45,10 +47,17 @@
     padding-right: 0;
   }
 
+  .AboutMe .Container .Photo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
   .AboutMe .Container .Photo .EntrenandoFoto3 {
     height: 160px;
     border-radius: 10px;
-    align-self: center;
+    display: flex;
+    justify-content: center;
   }
 
 }
