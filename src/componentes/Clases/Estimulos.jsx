@@ -25,7 +25,7 @@ const Estimulos = (props) => {
       animation.start({x: '-100vw'})
     }
 
-  },[inView]);
+  },);
 
   return (
     <div className={classes.Estimulos}
