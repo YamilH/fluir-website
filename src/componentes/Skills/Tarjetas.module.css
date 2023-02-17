@@ -60,11 +60,23 @@
   display: none;
   z-index: 20;
   color: #fff;
-  padding-bottom: 50px;
+  padding-top: 60px;
   font-size: 25px;
   font-family: 'BenchNine';
   font-weight: 700;
 }
+
+.Datos3profe {
+  position: absolute;
+  display: none;
+  z-index: 20;
+  color: #fff;
+  padding-top: 120px;
+  font-size: 25px;
+  font-family: 'BenchNine';
+  font-weight: 700;
+}
+
 /* .Datosprofe:hover {
   position: absolute;
   display: block;
@@ -78,5 +90,8 @@
   display: block;
 }
 .MarcoFotoprofe:hover .Datos2profe {
+  display: block;
+}
+.MarcoFotoprofe:hover .Datos3profe {
   display: block;
 }

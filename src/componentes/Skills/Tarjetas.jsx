@@ -10,6 +10,7 @@ const Tarjetas = (props) => {
             <img className={classes.Fotoprofe} src={props.fotoprofe} alt={props.altprofe}></img>
             <p className={classes.Datos1profe}>{props.texto1profe}</p>
             <p className={classes.Datos2profe}>{props.texto2profe}</p>
+            <p className={classes.Datos3profe}>{props.texto3profe}</p>
           </div>
       </div>
     </div>

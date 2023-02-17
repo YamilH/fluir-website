@@ -14,8 +14,9 @@ const Skills = () => {
           nombreprofe={'Rocío'}
           fotoprofe={fotoprofe1}
           altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
+          texto1profe={'Cumple: 18 de Agosto'}
+          texto2profe={'Hobby: Nadar'} 
+          texto3profe={'Comida: Tortilla de Papa'} 
       />
       <Tarjetas 
           nombreprofe={'David'}

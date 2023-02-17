@@ -11,7 +11,6 @@ const About = () => {
         <div className={classes.Text}>
           <h2 className={classes.Tituloaboutme}>La búsqueda del Bienestar Fisico y Emocional, es nuestra Prioridad</h2>
           <p className={classes.Textoaboutme}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quas. Commodi esse cumque molestiae quo ab. Nostrum cumque dignissimos adipisci culpa? Enim aut sint autem ad vel officia laudantium. Magni.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugiat, quo dolorum ipsam voluptatibus quia minima quos ut eius quae omnis? Sed, dignissimos officia sit voluptatem officiis voluptas ab dolorem?
           </p>
         </div>
         <div className={classes.Photo}>

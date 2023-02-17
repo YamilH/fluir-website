@@ -12,7 +12,7 @@ const Estimulos = (props) => {
   const animation = useAnimation();
 
   useEffect(() => {
-    console.log('use effect in view', inView);
+    // console.log('use effect in view', inView);
     if(inView){
       animation.start({
         x:0,
