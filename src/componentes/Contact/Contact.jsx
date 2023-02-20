@@ -13,7 +13,7 @@ const Contact = () => {
       <img className={classes.Waveviolet} src={Wave1} alt='svg'></img>
       <div id='Contact'></div>
       <PageHeaderWhite title={'Contacto'}/>
-      <a href="https://api.whatsapp.com/send?phone=5493416099418" rel='noreferrer' class={classes.Ig} target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=5493416099418" rel='noreferrer' class={classes.Wsp} target="_blank">
   <i><img class={classes.Infodecontacto} src={icono1} alt='icono'></img></i>
   </a>
       <p className={classes.TextoContacto}>Comunicate con nosotros al 341 6099418.</p>
