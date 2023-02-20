@@ -3,7 +3,7 @@ import classes from './Contact.module.css'
 import PageHeaderWhite from './../PageHeader/PageHeaderWhite.jsx';
 import Wave1 from '../../media/wave2.svg';
 import Wave3 from '../../media/wave4.svg';
-import icono1 from '../../media/phone.svg';
+import icono1 from '../../media/WhatsApp.svg';
 import icono2 from '../../media/instagram.svg';
 import icono3 from '../../media/house.svg';
 
@@ -13,15 +13,16 @@ const Contact = () => {
       <img className={classes.Waveviolet} src={Wave1} alt='svg'></img>
       <div id='Contact'></div>
       <PageHeaderWhite title={'Contacto'}/>
-      <img class={classes.Infodecontacto} src={icono1} alt='icono'></img>
+      <a href="https://api.whatsapp.com/send?phone=5493416099418" rel='noreferrer' class={classes.Ig} target="_blank">
+  <i><img class={classes.Infodecontacto} src={icono1} alt='icono'></img></i>
+  </a>
       <p className={classes.TextoContacto}>Comunicate con nosotros al 341 6099418.</p>
 
       <a href="https://www.instagram.com/fluir.rosario/" rel='noreferrer' class={classes.Ig} target="_blank">
   <i><img class={classes.Infodecontacto} src={icono2} alt='icono'></img></i>
   </a>
-
-      
       <p className={classes.TextoContacto}>También podemos conectarnos a través de nuestro Instagram: @fluir.rosario</p>
+
       <img class={classes.Infodecontacto} src={icono3} alt='icono'></img>
       <p className={classes.TextoContacto}>Nos encontramos en Av. Alberdi 431, Rosario, Santa Fe.</p>
 
