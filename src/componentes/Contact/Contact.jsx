@@ -10,8 +10,8 @@ import icono3 from '../../media/house.svg';
 const Contact = () => {
   return (
     <div className={classes.Contact}>
-      <img className={classes.Waveviolet} src={Wave1} alt='svg'></img>
-      <div id='Contact'></div>
+      <img className={classes.Waveviolet} src={Wave1} alt='svg' id='Contact'></img>
+
       <PageHeaderWhite title={'Contacto'}/>
       <a href="https://api.whatsapp.com/send?phone=5493416099418" rel='noreferrer' class={classes.Wsp} target="_blank">
   <i><img class={classes.Infodecontacto} src={icono1} alt='icono'></img></i>
@@ -36,9 +36,9 @@ const Contact = () => {
       <div className={classes.realfootercontainer}>
         <div className={classes.realfooterbody}>
           <div className={classes.realfooter1}></div>
-          <h5 className={classes.footer_h5}>&copy; 2023 Todos los Derechos Reservados</h5>
+          <h6 className={classes.footer_h6}>&copy; 2023 Todos los Derechos Reservados</h6>
           <div className={classes.realfooter2}></div> 
-          <h6 className={classes.footer_h6}>powered by <a className={classes.link} href="https://ar.linkedin.com/in/yamilhamui" target="_blank" rel='noreferrer'>YamilH</a></h6>
+          <h5 className={classes.footer_h5}>powered by <a className={classes.link} href="https://ar.linkedin.com/in/yamilhamui" target="_blank" rel='noreferrer'>YamilH</a></h5>
         </div>
       </div>
 

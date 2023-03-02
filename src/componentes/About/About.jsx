@@ -9,8 +9,8 @@ const About = () => {
       <PageHeader title={'Sobre Nosotros'}/>
       <div className={classes.Container}>
         <div className={classes.Text}>
-          <h2 className={classes.Tituloaboutme}>La búsqueda del Bienestar Fisico y Emocional, es nuestra Prioridad</h2>
-          <p className={classes.Textoaboutme}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quas. Commodi esse cumque molestiae quo ab. Nostrum cumque dignissimos adipisci culpa? Enim aut sint autem ad vel officia laudantium. Magni.
+          <h2 className={classes.Tituloaboutme}>Nuestra Pasión</h2>
+          <p className={classes.Textoaboutme}>La búsqueda del Bienestar Fisico y Emocional, es nuestra Prioridad. En FLUIR te esperemos para que entrenes con nosotros y te saquemos una sonrisa en el proceso.
           </p>
         </div>
         <div className={classes.Photo}>

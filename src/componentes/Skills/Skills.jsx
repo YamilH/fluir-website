@@ -1,7 +1,9 @@
 import React from 'react';
 import classes from './Skills.module.css'
 import PageHeader from './../PageHeader/PageHeader.jsx';
-import fotoprofe1 from '../../media/david.jpg';
+import fotoprofe1 from '../../media/rocio.jpg';
+import fotoprofe2 from '../../media/david.jpg';
+import fotoprofe3 from '../../media/nazarena.jpg';
 import Tarjetas from './Tarjetas.jsx'
 
 const Skills = () => {
@@ -14,51 +16,24 @@ const Skills = () => {
           nombreprofe={'Rocío'}
           fotoprofe={fotoprofe1}
           altprofe={'foto de david'}
-          texto1profe={'Cumple: 18 de Agosto'}
-          texto2profe={'Hobby: Nadar'} 
-          texto3profe={'Comida: Tortilla de Papa'} 
+          texto1profe={'Cumple: 13 de Agosto'}
+          texto2profe={'Hobby: Tomar mates'} 
+          texto3profe={'Comida: Sanguchitos de Miga'} 
       />
       <Tarjetas 
           nombreprofe={'David'}
-          fotoprofe={fotoprofe1}
+          fotoprofe={fotoprofe2}
           altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
+          texto1profe={'Hobby: Nadar'}
+          texto2profe={'Comida: Tortilla de Papa'} 
       />
       <Tarjetas 
-          nombreprofe={'Gustavo'}
-          fotoprofe={fotoprofe1}
+          nombreprofe={'Nazarena'}
+          fotoprofe={fotoprofe3}
           altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
-      />
-      <Tarjetas 
-          nombreprofe={'María'}
-          fotoprofe={fotoprofe1}
-          altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
-      />
-      <Tarjetas 
-          nombreprofe={'Enrique'}
-          fotoprofe={fotoprofe1}
-          altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
-      />
-      <Tarjetas 
-          nombreprofe={'Adriana'}
-          fotoprofe={fotoprofe1}
-          altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
-      />
-      <Tarjetas 
-          nombreprofe={'Romina'}
-          fotoprofe={fotoprofe1}
-          altprofe={'foto de david'}
-          texto1profe={'le gusta nadar'}
-          texto2profe={'le gustan las hamburguesas'} 
+          texto1profe={'Cumple: 11 de Junio'}
+          texto2profe={'Hobby: Yoga'} 
+          texto3profe={'Comida: Pastas con Mixta'} 
       />
 
     </div>

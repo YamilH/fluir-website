@@ -28,9 +28,7 @@ const Estimulos = (props) => {
   },);
 
   return (
-    <div className={classes.Estimulos}
-
-      >
+    <div className={classes.Estimulos}>
     <div ref={ref} className={classes.Clasescontent}>
       <motion.div className={classes.Paragraph} animate={animation}>
         <h3 className={classes.Tituloestimulos}>{props.tituloestimulos}</h3>
@@ -40,7 +38,6 @@ const Estimulos = (props) => {
         <img className={classes.Fotoestimulos} src={props.fotoestimulos} alt={props.altestimulos}></img>
       </motion.div>
     </div>
-
     </div>
     );
   }
