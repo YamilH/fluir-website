@@ -6,6 +6,7 @@ import MobileNavigation from './MobileNavigation.jsx';
 const Navbar = () => {
   return (
     <div className={classes.Navbar}>
+      <div className={classes.title}>FLUIR</div>
       <Navigation />
       <MobileNavigation />
     </div>
